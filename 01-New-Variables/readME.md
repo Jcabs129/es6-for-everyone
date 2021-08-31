@@ -1,0 +1,13 @@
+## NOTES
+
+1. VAR is functioned scoped 
+2. Let and CONST are blocked scoped 
+3. Naming the same variable using VAR will not capture the error in console log (browser). where as using LET and CONST will - "Identifier 'points' has already been declared"
+
+## Object.freeze()
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
+
+"The Object.freeze() method freezes an object. A frozen object can no longer be changed; freezing an object prevents new properties from being added to it, existing properties from being removed, prevents changing the enumerability, configurability, or writability of existing properties, and prevents the values of existing properties from being changed. In addition, freezing an object also prevents its prototype from being changed. freeze() returns the same object that was passed in."
+
+## Immediately-Invoked Function Expression (IIFE)
+http://benalman.com/news/2010/11/immediately-invoked-function-expression/
